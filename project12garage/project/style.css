@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+:root {
+    --b1: #7d6fd0;
+    --b2: black;
+}
+
+body {
+    font-family: 'Cabin', cursive;
+    background: var(--b2);
+}
+
+div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+div div {
+    margin-bottom: 30px;
+    border: 1px solid var(--b1);
+}
+
+
+
+
+h1 {
+    background: var(--b1);
+    padding: 20px 100px;
+    margin-top: 50px;
+}
+
+div h2 {
+    padding: 20px;
+    margin: 0;
+    color: var(--b1);
+    background-color: var(--b2);
+}
+
+h2 a, h3 {
+    color: var(--b1);
+    margin-bottom: 5px;
+}
+
+
+
+table {
+    background: var(--b2);
+}
+
+table tr td {
+    color: var(--b1);
+}
+
+td h3 {
+    font-size: 16px;
+}
+
+
+
+
+button {
+    background: var(--b1);
+    color: var(--b2);
+    padding: 5px 10px;
+    border: none;
+    margin: 10px;
+}
+
+input {
+    background: var(--b1);
+    color: var(--b2);
+    border: none;
+}
+
+
+
+
+td form, td form input {
+    margin: 0;
+    height: 100%;
+}
+
+form input {
+    margin: 2px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    display: inline-block;
+    margin: 0 10px 0 3px;
+} 
